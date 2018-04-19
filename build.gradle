@@ -47,13 +47,13 @@ node {
 task buildClient(type: NpmTask, dependsOn: 'npmInstall') {
     group = 'build'
     description = "Compile client side folder for production"
-    args = ['run', 'buildClient']
+    args = ['run', 'build']
 }
 
 task buildClientDev(type: NpmTask, dependsOn: 'npmInstall') {
     group = 'build'
     description = "Compile client side folder during development"
-    args = ['run', 'build']
+    args = ['run', 'buildClient']
 }
 
 task buildClientWatch(type: NpmTask, dependsOn: 'npmInstall') {
