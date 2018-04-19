@@ -1,4 +1,4 @@
-#A simple skeleton gradle build application using Spring boot at server side and Angular at the client side.#
+>A simple skeleton gradle build application using Spring boot at server side and Angular at the client side.
 
 ```gradlew bootRun``` - It will first build client resource and move it to server:resources/static. Tomcat server will start in dev mode
 
